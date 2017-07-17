@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="BottomBarXFExampleXaml.TabPage"
+	BackgroundColor="White">
+	<ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="15,10,15,5" Orientation="Horizontal">
+                <Image Source="http://gunmemorial.org/img/pencil_100px.png" HorizontalOptions="Start" WidthRequest="30"></Image>
+                <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Reddit_logo.svg/2000px-Reddit_logo.svg.png" HorizontalOptions="CenterAndExpand" WidthRequest="70"></Image>
+                <Image Source="http://www.cnplugins.com/uploads/crximage/201501/www.cnplugins.com_jlpcbjmcojciinknchcafgalmphlpjjn_logo.jpg" HorizontalOptions="End" WidthRequest="40"></Image>
+            </StackLayout>
+            <StackLayout BackgroundColor="#f2f2f2" Padding="7"></StackLayout>
+            <StackLayout Orientation="Vertical" Padding="15,0,0,0">
+                <Label Text="r/S.T.A.L.K.E.R • Gamers • Cheeki • Breeki" TextColor="Gray" Font="12"></Label>
+                <Label Text="Let's just find a good babushka's kompot..." TextColor="Black" Font="16"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Image Source="https://i.redd.it/mj3fm9jguegx.jpg" HorizontalOptions="CenterAndExpand"></Image>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
